@@ -1,0 +1,64 @@
+.productos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.producto1, .producto2, .producto3, .producto4, .producto5, .productos6, .producto7, .producto8, .producto9, .producto10, .producto11, .producto12{
+    background-color: #55494900; 
+   
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    width: 30%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.producto1:hover, .producto2:hover, .producto3:hover, .producto4:hover, .producto5:hover, .productos6:hover, .producto7:hover, .producto8:hover, .producto9:hover, .producto10:hover, .producto11:hover, .producto12:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.producto1 img , .producto2 img , .producto3 img , .producto4 img , .producto5 img , .productos6 img , .producto7 img, .producto8 img, .producto9 img, .producto10 img, .producto11 img, .producto12 img {
+    
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 10px;
+}
+
+
+.producto1  h2, .producto2  h2, .producto3  h2, .producto4  h2, .producto5  h2, .productos6  h2, .producto7  h2, .producto8  h2, .producto9  h2, .producto10  h2, .producto11 h2, .producto12 h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+
+.producto1 p, .producto2 p, .producto3 p, .producto4 p, .producto5 p, .productos6 p, .producto7 p, .producto8 p, .producto9 p, .producto10 p, .producto11 p, .producto12 p {
+    font-size: 1em;
+    font-weight: bold;
+    color: #27ae60; 
+}
+.producto1 a, .producto2 a, .producto3 a, .producto4 a, .producto5 a, .productos6 a, .producto7 a, .producto8 a, .producto9 a, .producto10 a, .producto11 a, .producto12 a {
+all: unset;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto1, .producto2, .producto3, .producto4, .producto5, .productos6, .producto7, .producto8, .producto9, .producto10, .producto11, .producto12 {
+        width: 90%; 
+    }
+}
+
+

@@ -1,0 +1,98 @@
+.main-welcome {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 40px;
+    background-color: #567880;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para encabezados */
+.main-welcome h1 {
+    padding-top: 6rem;
+    color: #0056b3; /* Azul fuerte */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main-welcome h2 {
+    font-size: 2rem;
+    color: #0073e6; /* Azul medio */
+    margin-top: 20px;
+}
+
+.main-welcome h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 15px;
+    border-left: 4px solid #0073e6;
+    padding-left: 10px;
+}
+
+/* Estilo para los párrafos */
+.main-welcome p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* Estilo para listas */
+.main-welcome ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.main-welcome ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los elementos de la lista */
+.main-welcome li {
+    margin-bottom: 5px;
+}
+
+/* Negrita en textos destacados */
+.main-welcome strong {
+    color: #0056b3;
+}
+
+/* Estilo para enlaces */
+.main-welcome a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.main-welcome a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de los bloques destacados */
+.main-welcome blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: #e7f3ff;
+    border-left: 4px solid #0056b3;
+    font-style: italic;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    .main-welcome {
+        padding: 10px;
+    }
+
+    .main-welcome h1 {
+        font-size: 2rem;
+    }
+
+    .main-welcome h2 {
+        font-size: 1.5rem;
+    }
+
+    .main-welcome h3 {
+        font-size: 1.25rem;
+    }
+}

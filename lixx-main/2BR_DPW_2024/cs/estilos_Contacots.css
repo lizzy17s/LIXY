@@ -1,0 +1,90 @@
+/* Estilo general del apartado */
+.contacto {
+   padding: 10px;
+    background-color: #f9f9f9; /* Fondo claro */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px auto;
+    max-width: 600px; /* Ancho máximo */
+    margin-top: 10rem;
+
+   
+}
+
+.contacto h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contacto p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+.contacto-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Campos del formulario */
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #27ae60; /* Color verde al enfocar */
+}
+
+/* Botón */
+.contacto-form button {
+    background-color: #27ae60; /* Fondo verde */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contacto-form button:hover {
+    background-color: #219150; /* Más oscuro al pasar el mouse */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .contacto {
+        padding: 20px;
+    }
+
+    .contacto h1 {
+        font-size: 1.5em;
+    }
+
+    .contacto p {
+        font-size: 0.9em;
+    }
+}
